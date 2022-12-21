@@ -1,4 +1,4 @@
-package com.bytebank.modelo;
+package src.com.bytebank.modelo;
 
 //todo es abstract
 public interface Autenticable {
