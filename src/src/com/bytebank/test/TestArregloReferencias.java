@@ -1,9 +1,9 @@
 package src.com.bytebank.test;
 
+import com.bytebank.modelo.Cliente;
 import com.bytebank.modelo.Cuenta;
 import com.bytebank.modelo.CuentaAhorros;
 import com.bytebank.modelo.CuentaCorriente;
-import com.bytebank.modelo.cliente.Cliente;
 
 public class TestArregloReferencias {
 	

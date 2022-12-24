@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
+import com.bytebank.modelo.Cliente;
 import com.bytebank.modelo.Cuenta;
 import com.bytebank.modelo.CuentaCorriente;
-import com.bytebank.modelo.cliente.Cliente;
 
 public class TestArrayList {
 	public static void main(String[] args) {

@@ -1,18 +1,6 @@
 package com.bytebank.modelo;
 
-
-/**
- * Cuenta va a crear nuevas instancias de CuentaCorriente
- * 
- * @version 1.0
- * 
- * @author Nacha
- */
-
-
-import com.bytebank.modelo.cliente.Cliente;
-
-public abstract class Cuenta {
+public abstract class Cuenta implements Comparable<Cuenta>{
 
 	//public //accesible desde cualquier parte
 	//default //accesible dentro del paquete
@@ -108,7 +96,7 @@ public abstract class Cuenta {
    }
    @Override
    public String toString() {
-       String cuenta = "Numero: " + this.numero + ", Agencia: " + this.agencia;
+       String cuenta = "Numero: " + this.numero + ", Agencia: " + this.agencia + ", Titular: " + this.titular.getNombre();
        return cuenta;
    }
       public boolean esIgual(Cuenta cuenta) {
