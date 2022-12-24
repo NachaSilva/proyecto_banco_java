@@ -14,7 +14,10 @@ public class TestArrayList {
 		
 		//forzando a que solo acepte un tipo de objete, eso se hace con <>
 		
-		List<Cuenta> lista = new ArrayList();
+		//obligatorio <contenido>   <no obligatorio>
+		List<Cuenta> lista = new ArrayList<Cuenta>();
+		//List<Cuenta> lista = new LinkedList<Cuenta>();
+		//List<Cuenta> lista = new Vector<Cuenta>();
 		
 		//Referencia            //Objeto se guardan en la memoria HEAP
 		Cuenta cc = new CuentaCorriente(11, 22);
